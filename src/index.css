@@ -1,0 +1,43 @@
+.select-visible {
+  display: inline-block;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  background-color: rgba(14, 53, 6, 0.322);
+  font-family: 'fantasy', sans-serif;
+}
+
+.breed-select {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'fantasy', sans-serif;
+  font-weight: 700;
+}
+
+.cat-info {
+  width: 500px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.cat-image {
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.select-invisible {
+  display: none;
+}

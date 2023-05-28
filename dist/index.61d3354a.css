@@ -1,0 +1,45 @@
+.select-visible {
+  display: inline-block;
+}
+
+body {
+  background-color: #0e350652;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  font-family: "fantasy", sans-serif;
+  display: flex;
+}
+
+.breed-select {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "fantasy", sans-serif;
+  font-weight: 700;
+}
+
+.cat-info {
+  width: 500px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.cat-image {
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.select-invisible {
+  display: none;
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */
